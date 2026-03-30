@@ -1,18 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./index.html', './src/**/*.{ts,tsx}'],
+  content: ['./index.html', './src/**/*.{js,jsx}'],
   theme: {
     extend: {
       fontFamily: {
-        nunito: ['Nunito', 'sans-serif'],
+        nunito:  ['Nunito', 'sans-serif'],
         raleway: ['Raleway', 'sans-serif'],
       },
       colors: {
         brand: {
           50:  '#eef2ff',
           100: '#e0e7ff',
-          200: '#c7d2fe',
-          400: '#818cf8',
           600: '#3b5bdb',
           700: '#1a3db5',
           900: '#1a1f6e',
